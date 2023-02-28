@@ -46,7 +46,7 @@ Venky Cubes is a RESTful web service to manage (add, delete) and retrieve cube o
 ## APIs
 ### Add a cube
 
-Endpoint: POST /cubes
+Endpoint: POST /cube
 
 Description: Adds a cube to the system.
 
@@ -69,7 +69,7 @@ Response Body:
 ```
 ### Get a cube using id </h3>
 
-Endpoint: GET /cubes?id={id}
+Endpoint: GET /cube?id={id}
 
 Description: Retrieves a cube by its id (uuid).
 
@@ -87,7 +87,7 @@ Response Body:
 
 ### Get a cube using volume
 
-Endpoint: GET /cubes?volume={volume}
+Endpoint: GET /cube?volume={volume}
 
 Description: Retrieves a cube by its volume.
 
