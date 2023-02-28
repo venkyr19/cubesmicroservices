@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/cubesdb
+    url: jdbc:mysql://localhost:3306/cubes_db
     username: root
     password: password
   jpa:
